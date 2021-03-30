@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-collapse {
+    border-top: 0;
+}
+
+nav {
+    /* border: 3px solid black; */
+    background-color: rgb(175, 79, 231);
+}
+
+.head {
+    background-color: rgb(120, 25, 175);
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%
+  }
+
+  .build {
+    /* position: relative; */
+    border: 2px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: #F9E3CB;
+  }
+
+  #a1{
+    top: -1px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: orange;
+    /* float: right; */
+    /* width: 160px; */
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #a2{
+    top: -1px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: lightgreen;
+    /* float: right; */
+    /* width: 160px; */
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #a3{
+    top: -1px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: lightblue;
+    /* float: right; */
+    /* width: 160px; */
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .content{
+    /* text-align: center; */
+    padding: 15px;
+    border: none;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: auto;
+    /* overflow: auto; */
+  }
+
+  p {
+    position: relative;
+    clear: right;
+  }
+
+  .hamitems {
+    text-align: center;
+  }
+
+  .Starters {
+    padding-top: 20px;;
+  }
+
+  .scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
