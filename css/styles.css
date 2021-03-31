@@ -1,5 +1,5 @@
 
-* {
+  * {
     box-sizing: border-box;
     font-family: Arial;
     font-size: 20px;
@@ -9,18 +9,30 @@
 
   .navbar-collapse {
     border-top: 0;
-}
+  }
 
-nav {
-    /* border: 3px solid black; */
-    background-color: rgb(175, 79, 231);
-}
+  /* nav {
+    border: 3px solid black;
+    background-color: rgb(104, 100, 100);
+  }*/
 
-.head {
-    background-color: rgb(120, 25, 175);
-}
+  .head {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  } 
 
-section {
+  /* .head li {
+    
+  } */
+
+  /* hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:black;
+  } */
+
+  section {
     position: relative;
     padding: 15px;
     width: 100%
@@ -92,10 +104,6 @@ section {
   p {
     position: relative;
     clear: right;
-  }
-
-  .hamitems {
-    text-align: center;
   }
 
   .Starters {
